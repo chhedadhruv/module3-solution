@@ -1,0 +1,76 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+h1 {
+	font-family: 'Oswald', sans-serif;
+}
+.div1,.div2,.div3 {
+	text-align: center;
+	border: 2px solid black;
+	background-color: grey;
+	width: 400px;
+	float: left;
+	margin: 20px;
+}
+.div1{
+	margin-top: 20px;
+}
+nav {
+	background-color: grey;
+}
+section {
+	font-size: 120%;
+	font-weight: bold;
+}
+p {
+	font-family: 'Dongle', sans-serif;
+	font-size: 150%
+}
+@media (min-width: 992px) {
+	.div1 {
+		width: 32%;
+		margin: 5px;
+	}
+	.div2 {
+		width: 32%;
+		margin: 5px;
+	}
+	.div3 {
+		width: 32%;
+		margin: 5px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.div1{
+		width: 48%;
+		margin: 5px;
+	}
+	.div2{
+		width: 48%;
+		margin: 5px;
+	}
+	.div3{
+		width: 100%;
+		clear: left;
+		margin: 5px;
+	}
+}
+@media (max-width: 767px) {
+	.div1{
+		clear: left;
+		width: 100%;
+		margin: 5px;
+	}
+	.div2{
+		clear: left;
+		width: 100%;
+		margin: 5px;
+	}
+	.div3{
+		clear: left;
+		width: 100%;
+		margin: 5px;
+	}
+}
